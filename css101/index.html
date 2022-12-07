@@ -4,20 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="src/styles/img/style.css">
+    <link rel="stylesheet" href="./src/styles/img/font.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+    <title>KFC</title>
 </head>
 <body>
     <header class="header">
         <nav class="nav">
-            <div class="rows">
+            <div class="row">
                 <div class="logo_container">
-                    <img src="">
+                    <img src="src/styles/img/logo_KFC.png">
                 </div>
-                <div class="rows_container">
+                <div class="nav_container">
                     <ul class="list_container">
-                        <li>Home</li>
-                        <li>Menu</li>
-                        <li>Order</li>
+                        <li class="active">Home</li>
+                        <a href="#section2"><li>Menu</li></a>
+                        <a href="#shadows"><li>Voucher</li></a>
                         <li>Contact</li>
                     </ul>
                 </div>
@@ -28,5 +32,82 @@
             </div>
         </nav>
     </header>
+    <section id="banner">
+        <div class="row">
+            <div class="banner_content_container">
+                <h2 class="main_header">Bucket 26 Spicy </br> Wings  <i class="fa-solid fa-fire"></i></h2>
+                <div>
+                <p class="bucketp">GEL 33.50</p>
+                </div>
+                <button class="popular"><i class="fa-solid fa-star"></i> POPULAR</button>
+                <div>
+                <button class="orderbtn">ORDER</button>
+            </div>
+            </div>
+            <div class="bucket">
+                <img src="./src/styles/img/R.png">
+            </div>
+        </div>
+    </section>
+<!--     <section id="burger">
+        <div class="row space_around">
+            <div class="col">
+                <img src="./src/styles/img/3.png">
+            </div>
+            <div class="col">
+                <img src="./src/styles/img/4.png">                       
+            </div>
+            <div class="col">
+                <img src="./src/styles/img/2.png">
+            </div>
+            <div class="col">
+                <img src="./src/styles/img/1.png">
+            </div>
+        </div>
+    </section> -->
+    <section id="section2">
+        <div class="row">
+            <div class="burger">
+                <img src="./src/styles/img/burger.png">
+            </div>
+            <div class="banner_content_container">
+                <h2 class="main_header">Cheeseburger DE </br>LUX  <i class="fa-solid fa-burger"></i></h2>
+                <div>
+                <p class="bucketp">GEL 8.50</p>
+                <p class="burgerp">Bun, cheese, chicken fillet, tomato, iceberg, cucumber,ketchup, mustard</p>
+                </div>
+                <button class="popular"><i class="fa-solid fa-star"></i> POPULAR</button>
+                <div>
+                <button class="orderbtn">ORDER</button>
+            </div>
+            </div>
+        </div>
+    </section>
+    <div>
+        <h1 class="voucher">GET A VOUCHER</h1>
+    </div>
+    <section id="shadows">
+        <div class="shadow">
+        <h2 class="shadowh1">1 WEEK </h2>
+        <p class="shadowp1"> 20% discount on all special menus </br>20% discount on all special menus</br>20% 
+            discount on all special menus</br>20% discount on all special menus</br>20% discount on all special menus
+        </br>20% discount on all special menus</br>20% discount on all special menus</br>20% discount on all special menus</br></p>
+        <button class="paynow">Pay Now</button>
+        </div>
+        <div class="shadow">
+            <h2 class="shadowh1">1 WEEK </h2>
+            <p class="shadowp1"> 20% discount on all special menus </br>20% discount on all special menus</br>20% 
+                discount on all special menus</br>20% discount on all special menus</br>20% discount on all special menus
+            </br>20% discount on all special menus</br>20% discount on all special menus</br>20% discount on all special menus</br></p>
+            <button class="paynow">Pay Now</button>
+        </div>
+        <div class="shadow">
+            <h2 class="shadowh1">1 WEEK </h2>
+            <p class="shadowp1"> 20% discount on all special menus </br>20% discount on all special menus</br>20% 
+                discount on all special menus</br>20% discount on all special menus</br>20% discount on all special menus
+            </br>20% discount on all special menus</br>20% discount on all special menus</br>20% discount on all special menus</br></p>
+            <button class="paynow">Pay Now</button>
+        </div>
+    </section>
 </body>
 </html>

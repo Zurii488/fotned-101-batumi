@@ -1,6 +1,138 @@
 .row{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-left: 50px;
-    padding-left: 50px;
+    padding-right: 50px;
+}
+.logo_container{
+    width: 150px;
+    height: 150px;
+}
+.active{
+    color: black;
+    padding-bottom: 5px;
+    border-bottom: #A40000 3px solid;
+
+}
+.list_container{
+    display: flex;
+    list-style: none;
+    color: #6e6b6b;
+    font-size: 20px;
+}
+.list_container li{
+    margin-left: 30px;
+}
+.Login{
+    width: 102px;
+    height: 51px;
+    border: 1px solid #A40000;
+    background-color: transparent;
+    color: #A40000;
+}
+.Register{
+    width: 102px;
+    height: 51px;
+    border: 1px solid white;
+    background-color: #A40000;
+    color:white;
+}
+img{
+    width: 100%;
+}
+.bucket{
+    width: 600px;
+    height: 600px;
+}
+.popular{
+    width: 100px;
+    height: 30px;
+    border: 1px solid white;
+    background-color: #0055ff;
+    color:white;
+    margin-left: 110px;
+}
+#banner{
+    margin-top: 70px;
+    margin-right: 200px;
+}
+.main_header{
+    font-size: 83px;
+    margin-left: 100px;
+    font-family:"MyFirstFont"
+}
+p{
+    font-size: 25px;
+    color:black;
+    margin-left: 110px;
+    font-family: "MyFirstFont";
+}
+.banner_content_container p{
+    margin-top: 30px;
+}
+.orderbtn{
+    width: 102px;
+    height: 51px;
+    border: 1px solid white;
+    background-color: #A40000;
+    color:white;
+    margin-left: 600px;
+    font-family: "MyFirstFont";
+}
+/* #burger{
+    margin-top: 68px;
+}
+.space_around{
+    justify-content: space-around;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+} */
+.burger{
+    margin-top: 220px;
+}
+.burgerp{
+    font-family: "MyFirstFont";
+}
+.shadow{
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+    border: 1px solid #eee;
+    box-shadow: none;
+    background: rgb(250,245,245);
+background: radial-gradient(circle, rgba(250,245,245,1) 0%, rgba(233,220,220,1) 27%, rgba(214,196,196,1) 62%, rgba(255,0,0,1) 88%);
+}
+#shadows{
+    display: flex;
+    padding-left: 70px;
+    padding-right: 50px;
+}
+.voucher{
+    font-family: "MyFirstFont";
+    margin: auto;
+    width: 50%;
+    border: 3px solid #A40000;
+    padding: 10px;
+    text-align: center;
+}
+.shadowh1{
+    text-align: center;
+    font-family: "MyFirstFont";
+}
+.shadowp1{
+    font-size: 20;
+    font-family: "MyFirstFont";
+}
+.paynow{
+    width: 102px;
+    height: 51px;
+    border: 1px solid white;
+    background-color: #A40000;
+    color:white;
+    margin-left: 350px;
+}
+html{
+    scroll-behavior: smooth;
 }
