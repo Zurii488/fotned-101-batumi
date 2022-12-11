@@ -1,0 +1,49 @@
+.animation{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: none;
+    position: relative;
+    animation-name: changeColor;
+    animation-duration: 9s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+}
+
+@keyframes changeColor {
+    from {left: 0px;}
+    to {left: 100%;}
+ }
+.wheel{
+    margin-left: 130px;
+    margin-top: 30px;
+    position: fixed;
+    animation-name: round;
+    animation-duration: 9s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+}
+@keyframes round{
+    from {left: 0px;}
+    to {left: 100%;}
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+.wheel2{
+    margin-left: 850px;
+    margin-top: 30px;
+    position: fixed;
+    animation-name: round;
+    animation-duration: 9s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+}
+@keyframes round{
+    from {left: 0px;}
+    to {left: 100%;}
+    from{transform: rotate(360deg);}
+    to{transform: rotate(0deg);}
+}
