@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #FFCD29;
+    background-color: #1E1E1E;
 }
 .container{
     text-align: center;
@@ -20,7 +20,7 @@ body{
     display: block;
 }
 .text1{
-    color: #1E1E1E;
+    color: #FFCD29;
     font-size: 60px;
     font-weight: 700;
     letter-spacing: 8px;
