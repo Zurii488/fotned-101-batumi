@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+.section{
+    background-color: #FFF7DF;
+    height: 1050px;
+    display: flex;
+    padding: 40px;
+    width: 60%;
+    margin: 10rem auto;
+    border: 1px solid rgba(59, 58, 58, 0.46);
+    border-radius: 20px;
+    top: 0;
+    transition: top ease 0.5s;
+}
+.section img{
+    height: 250px;
+}
+.washi{
+    width: 1000px;
+    height: 1000px;
+}
+.section h1{
+    margin-left: 20px;
+    color:#1E1E1E;
+}
+.section p{
+    color: #1E1E1E;
+    font-size: larger;
+    margin-left: 20px;
+}
+.section ul{
+    color:#1E1E1E;
+}
+.section hr {
+    width: 500px;
+    height: 2px;
+    margin-right: auto;
+    background-color: #FFCD29;
+    border: 0 none;
+    margin-top: 100px;
+}
+.section h2{
+    
+}
