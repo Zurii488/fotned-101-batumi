@@ -1,0 +1,390 @@
+html {
+  scrollbar-color: white black;
+  scrollbar-width: thin;
+}
+
+body {
+  margin: 1rem;
+  font-family: "Vollkorn SC", sans-serif;
+  
+}
+
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.93);
+}
+
+a:hover,
+a:focus {
+  color: rgba(0, 0, 0, 0.6);
+  outline: none;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+}
+button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+button:hover,
+button:focus {
+  transform: scale(1.3);
+}
+.col-50{
+  width: 50%;
+}
+.imgbanner{
+  width: 100%;
+}
+.sec2{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+.navbar-brand {
+  font-size: 6vmin;
+  font-weight: 600;
+  padding-left: 2rem;
+  letter-spacing: 1rem;
+}
+
+/* Navbar Styles */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10vmin;
+  padding: 1rem 0;
+}
+
+.navbar-menu {
+  display: none;
+}
+
+.navbar-list {
+  display: flex;
+  flex-basis: 75%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navbar-list li {
+  margin-right: 2rem;
+  letter-spacing: 2px;
+}
+
+input {
+  height: 35px;
+  border-radius: 50px;
+  border: solid 1px rgb(224, 224, 224);
+  padding: 0.5rem;
+  max-width: 9.3rem;
+}
+
+@media (max-width: 1080px) {
+  .navbar-list li {
+    margin-right: 1rem;
+  }
+}
+
+@media (max-width: 920px) {
+  .navbar-list {
+    display: none;
+  }
+
+  .navbar-menu {
+    display: block;
+  }
+}
+
+@media (max-width: 520px) {
+  .navbar-brand {
+    letter-spacing: 0.5rem;
+    padding-left: 0;
+    font-weight: 400;
+  }
+
+  .fa-hamburger {
+    font-size: 6.5vmin;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:sans-serif;
+  box-sizing: border-box
+}
+body{
+  background: linear-gradient(72deg, rgb(44, 222, 242) 0.00%, rgb(156, 43, 171) 35.00%, rgb(39, 43, 44) 100.00%);
+}
+.logo{
+  width: 100%auto;
+  height: 100px;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  width: 50%;
+  margin-top: 100px;
+/*   border: solid 2px #000;
+  box-shadow: 0 3px 60px -10px rgba(0, 0, 0, 0.3); -------- help gio pls
+  margin: 0 0 7rem; */
+}
+
+.container {
+  position: relative;
+  width: 1280px;
+}
+
+.container .cards {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  background: linear-gradient(#00d4ff, #00d4ff 30%,#020024 30%, #020024);
+  margin: 10px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.container .cards .imgBx {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  z-index: 100000;
+  border-radius: 20px;
+  overflow: hidden;
+  transform-origin: top;
+}
+
+.container .cards:hover .imgBx {
+  transform: translateY(30px) scale(0.5);
+}
+
+.container .cards .imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container .cards .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 30px;
+  transform: translateY(100%);
+  transition: 0.5s;
+}
+
+.container .cards:hover .content {
+  transform: translateY(0);
+}
+
+.container .cards .content .details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+}
+
+.container .cards .content .details h2 {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.container .cards .content .details h2 span {
+  font-size: 0.8em;
+  font-weight: 400;
+  color: #03a9f4;
+}
+
+.social_icons {
+  position: relative;
+  display: flex;
+  margin-top: 5px;
+}
+
+.social_icons li {
+  list-style: none;
+  margin: 4px;
+}
+
+.social_icons li a {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #294d69;
+  border-radius: 50%;
+  font-size: 1.5em;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.social_icons li a:hover {
+  transform: rotate(360deg);
+  background: #03a9f4;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 1.7;
+	color: #fff;
+	background-color: #1f2029;
+  margin: 0;
+  padding: 0;
+  overflow-x: none;
+}
+p{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.7;
+	color: #fff;
+  margin: 0;
+}
+.section-fluid-main{
+  position: relative;
+  display: block;
+  overflow: hidden;
+  width: 750px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: 100%;
+  max-width: 1140px;
+  padding: 100px 0;
+}
+.section-row{
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.section-row:hover .section-col{
+  opacity: 0.1;
+}
+.section-col{
+  position: relative;
+  width: 100%;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+  transition: opacity 250ms linear;
+}
+.section-row .section-col:hover{
+  opacity: 1;
+}
+.section{
+  position: relative;
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  cursor: pointer;
+  padding: 15px;
+}
+.section-in{
+  position: relative;
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.section-in img{
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 250ms linear;
+}
+.section-col:hover .section-in img{
+  transform: scale(1.1) rotate(-3deg);
+}
+
+.hover-text{
+  position: fixed;
+  top: 0;
+  left: 200px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 100;
+  pointer-events: none;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  -ms-flex-pack: center;
+  text-align: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+  mix-blend-mode: difference;
+}
+.hover-text h2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-size: 8vw;
+  line-height: 1;
+  color: #fff;
+  opacity: 0;
+  transform: scale(0.8);
+  transition: transform 250ms linear, opacity 250ms ease;
+}
+.section-col:hover + .hover-text h2{
+  opacity: 1;
+  transform: scale(1);
+}
+
+
+
+@media (max-width: 767px) {
+  .section-col{
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .hover-text h2{
+    font-size: 12vw;
+  }
+}
